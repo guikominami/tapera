@@ -1,5 +1,4 @@
 import type { NavigationItem } from "@/types/navigation";
-import { cn } from "@/utils/cn";
 
 type NavigationProps = {
     items: NavigationItem[];
@@ -9,10 +8,10 @@ type NavigationProps = {
 export default function Navigation({ items, className }: NavigationProps) {
     return (
         <nav
-            className={cn("flex items-center", className)}
+            className={className}
             aria-label="Navegação principal"
         >
-            <ul>
+            <ul className="flex items-center gap-8">
                 {items.map((item) => (
                     <li key={item.href}>
                         <a href={item.href} className="transition-colors hover:text-primary">
