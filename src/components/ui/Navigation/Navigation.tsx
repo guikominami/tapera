@@ -15,7 +15,7 @@ export default function Navigation({ items, className }: NavigationProps) {
         >
             <ul className={cn(
                 typography.ui.navigation,
-                "flex items-center gap-8 font-bold text-base text-brown"
+                "flex items-center gap-8 font-bold text-brown"
             )}>
                 {items.map((item) => (
                     <li key={item.href}>

@@ -4,17 +4,17 @@ export const typography = {
 
         section: "font-display text-[64px] font-bold leading-tight",
 
-        subtitle: "font-display text-[40px] font-bold leading-tight",
+        subtitle: "font-display md:text-2xl leading-tight",
     },
 
     body: {
-        regular: "font-body text-base md:text-2xl leading-relaxed",
+        regular: "font-body md:text-2xl leading-relaxed",
     },
 
     ui: {
-        navigation: "font-ui text-[32px] font-bold",
+        navigation: "font-ui md:text-xl font-bold",
 
-        button: "font-ui text-[32px] font-bold",
+        button: "font-ui md:text-xl font-bold",
     },
 };
 

@@ -15,7 +15,6 @@ export default function HeroContent() {
                 w-full 
                 max-w-xl 
                 md:max-w-5xl 
-                text-primary-light 
                 text-left
                 text-beige
             "
@@ -30,7 +29,7 @@ export default function HeroContent() {
             </Heading>
 
             <ul className={cn(
-                typography.body.regular,
+                typography.display.subtitle,
                 "flex flex-col tracking-wide max-w-full drop-shadow - [0_2px_4px_rgba(0, 0, 0, 0.8)]"
             )}>
                 <Text as="li" variant="regular">Caminhar junto.</Text>

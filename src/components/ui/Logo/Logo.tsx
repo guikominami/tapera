@@ -11,7 +11,7 @@ export default function Logo({ className }: LogoProps) {
             <img
                 src={logo}
                 alt="Logo Tapera"
-                className={cn("h-10 w-auto", className)}
+                className={cn("h-14 w-auto", className)}
             />
         </a>
     );

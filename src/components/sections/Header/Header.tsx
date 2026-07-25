@@ -8,7 +8,7 @@ import { typography } from "@/theme/typography"; // 2. Importe o seu arquivo de 
 export default function Header() {
     return (
         <header>
-            <Container className="flex items-center justify-between py-6">
+            <Container className="flex items-center justify-between py-6 px-16">
                 <Logo />
 
                 <div className="flex items-center gap-8">
@@ -18,7 +18,8 @@ export default function Header() {
                         href="#contato"
                         className={cn(
                             typography.ui.button,
-                            "bg-[#0D6251] text-background px-6 py-2.5 text-base font-bold transition-all hover:brightness-110 active:scale-95",
+                            "bg-[#0D6251] text-background px-6 py-2.5 font-bold text-beige",
+                            "transition-all hover:brightness-110 active:scale-95",
                             "rounded-tl-2xl rounded-br-2xl rounded-tr-none rounded-bl-none"
                         )}
                     >

@@ -14,3 +14,12 @@
     --color-brown: #460B13;
 
 }
+
+html, body {
+    background-color: var(--color-beige);
+    color: var(--color-marrom);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased; /* Deixa as fontes suaves como no Figma */
+    margin: 0;
+    padding: 0;
+}
