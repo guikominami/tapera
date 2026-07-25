@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@theme {
+
+    /* Fonts */
+
+    --font-display: "Gopher", serif;
+    --font-body: "PT Sans", sans-serif;
+    --font-ui: "DM Sans", sans-serif;
+
+    /* Colors */
+
+    --color-beige: #E2D6CA;
+    --color-brown: #460B13;
+
+}

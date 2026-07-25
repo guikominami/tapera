@@ -5,16 +5,18 @@ import { navigation } from "@/data/navigation";
 
 export default function Header() {
     return (
-        <Container className="flex items-center justify-between py-6">
-            <Logo />
+        <header>
+            <Container className="flex items-center justify-between py-6">
+                <Logo />
 
-            <div className="flex items-center gap-8">
-                <Navigation items={navigation} />
+                <div className="flex items-center gap-8">
+                    <Navigation items={navigation} />
 
-                <a href="#contato">
-                    Contato
-                </a>
-            </div>
-        </Container>
+                    <a href="#contato">
+                        Contato
+                    </a>
+                </div>
+            </Container>
+        </header>
     );
 }

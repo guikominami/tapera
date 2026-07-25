@@ -1,60 +1,29 @@
 import Container from "@/components/ui/Container";
 import heroBackground from "@/assets/images/hero/hero-background.jpg";
-import { hero } from "@/data/hero";
+import HeroContent from "./HeroContent";
 
 export default function Hero() {
     return (
         <section
-            id="hero"
+            aria-label="Nosso Propósito"
             className="
-                relative
-                min-h-[70vh] 
+                flex flex-col 
+                justify-center 
+                items-start 
+                relative 
+                w-full 
+                min-h-[80vh] 
                 bg-cover 
                 bg-center 
-                bg-no-repeat
+                px-6 md:px-16 
+                py-20
             "
             style={{ backgroundImage: `url(${heroBackground})` }}
         >
-            {/* Overlay */}
-            <div className="absolute inset-0 bg-black/40">
+            {/* Camada escura de contraste */}
+            <div className="absolute inset-0 bg-black/40 z-0" aria-hidden="true" />
 
-                {/* Content */}
-                <Container className="relative flex min-h-[70vh] items-center">
-                    <div
-                        className="
-                            max-w-3xl 
-                            flex 
-                            flex-col 
-                            gap-6
-                        "
-                    >
-                        <h1
-                            className="
-                                text-4xl
-                                font-bold
-                                leading-tight
-                                text-white
-                                md:text-5xl
-                                lg:text-5xl
-                            "
-                        >
-                            {hero.title}
-                        </h1>
-                        <p
-                            className="
-                                text-lg
-                                leading-relaxed
-                                text-white
-                            "
-                        >
-                            {hero.subtitle}
-                        </p>
-                    </div>
-
-
-                </Container>
-            </div>
-
+            <HeroContent />
         </section>
     );
 }
