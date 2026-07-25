@@ -1,4 +1,3 @@
-import Container from "@/components/ui/Container";
 import heroBackground from "@/assets/images/hero/hero-background.jpg";
 import HeroContent from "./HeroContent";
 
