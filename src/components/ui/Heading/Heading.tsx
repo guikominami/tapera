@@ -1,6 +1,5 @@
 import { typography, type DisplayVariant } from "@/theme/typography";
 import type { ElementType, ReactNode } from "react";
-import { cn } from "@/utils/cn";
 
 type HeadingProps = {
     as?: ElementType;
@@ -14,7 +13,7 @@ export default function Heading({ as: Tag = "h2", variant, className, children, 
     const styles = typography.display[variant];
 
     return (
-        <Tag id={id} className={cn(styles, className)}>
+        <Tag className={`${styles} ${className ?? ""}`}>
             {children}
         </Tag>
     );

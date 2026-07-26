@@ -29,12 +29,12 @@ export default function HeroContent() {
             </Heading>
 
             <ul className={cn(
-                typography.display.subtitle,
-                "flex flex-col tracking-wide max-w-full drop-shadow - [0_2px_4px_rgba(0, 0, 0, 0.8)]"
+                typography.body.regular,
+                "flex flex-col tracking-wide max-w-full"
             )}>
-                <Text as="li" variant="regular">Caminhar junto.</Text>
-                <Text as="li" variant="regular">Reconhecer e apoiar suas demandas.</Text>
-                <Text as="li" variant="regular">Construir relações de confiança.</Text>
+                <Text as="li" variant="body">Caminhar junto.</Text>
+                <Text as="li" variant="body">Reconhecer e apoiar suas demandas.</Text>
+                <Text as="li" variant="body">Construir relações de confiança.</Text>
             </ul>
         </div >
     )

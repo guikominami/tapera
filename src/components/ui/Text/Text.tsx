@@ -1,19 +1,27 @@
-import { typography, type BodyVariant } from "@/theme/typography";
+import { typography, type TextVariant } from "@/theme/typography";
 import type { ElementType, ReactNode } from "react";
-import { cn } from "@/utils/cn";
 
 type TextProps = {
-    as?: ElementType; // Pode ser 'p', 'span', 'li', etc.
-    variant?: BodyVariant;
+    as?: ElementType;
+    variant: TextVariant;
     className?: string;
     children: ReactNode;
+    id?: string;
 };
 
-export default function Text({ as: Tag = "p", variant = "regular", className, children }: TextProps) {
-    const styles = typography.body[variant];
+export default function Text({
+    as: Tag = "p",
+    variant,
+    className,
+    children,
+    id
+}: TextProps) {
+    const styles = typography.text[variant];
 
     return (
-        <Tag className={cn(styles, className)}>
+        <Tag
+            id={id}
+            className={`${styles} ${className ?? ""}`}>
             {children}
         </Tag>
     );

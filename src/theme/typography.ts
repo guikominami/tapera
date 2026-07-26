@@ -16,8 +16,14 @@ export const typography = {
 
         button: "font-ui md:text-xl font-bold",
     },
+    text: {
+        body: "font-body text-[20px] font-normal leading-relaxed text-primary",
+        highlight: "font-body text-[20px] font-bold leading-relaxed text-primary",
+
+    }
 };
 
 export type DisplayVariant = keyof typeof typography.display;
 export type BodyVariant = keyof typeof typography.body;
 export type UIVariant = keyof typeof typography.ui;
+export type TextVariant = keyof typeof typography.text;

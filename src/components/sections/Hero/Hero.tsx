@@ -4,7 +4,7 @@ import HeroContent from "./HeroContent";
 export default function Hero() {
     return (
         <section
-            aria-label="Nosso Propósito"
+            aria-labelledby="Nosso Propósito"
             className="
                 flex flex-col 
                 justify-center 
