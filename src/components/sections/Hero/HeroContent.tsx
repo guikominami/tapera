@@ -16,7 +16,7 @@ export default function HeroContent() {
                 max-w-xl 
                 md:max-w-5xl 
                 text-left
-                text-beige
+                text-primary-light
             "
         >
             <Heading

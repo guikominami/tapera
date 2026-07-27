@@ -15,11 +15,11 @@ export default function Navigation({ items, className }: NavigationProps) {
         >
             <ul className={cn(
                 typography.ui.navigation,
-                "flex items-center gap-8 font-bold text-brown"
+                "flex items-center gap-8 font-bold text-primary-dark"
             )}>
                 {items.map((item) => (
                     <li key={item.href}>
-                        <a href={item.href} className="transition-colors hover:text-primary">
+                        <a href={item.href} className="transition-colors hover:brightness-150">
                             {item.label}
                         </a>
                     </li>

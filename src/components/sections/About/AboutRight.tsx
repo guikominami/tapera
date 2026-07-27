@@ -35,7 +35,7 @@ export default function AboutRight() {
                     <Text
                         key={index}
                         variant="body"
-                        className="text-brown"
+                        className="text-primary-dark"
                     >
                         {paragraph}
                     </Text>

@@ -18,7 +18,7 @@ export default function Header() {
                         href="#contato"
                         className={cn(
                             typography.ui.button,
-                            "bg-[#0D6251] text-background px-6 py-2.5 font-bold text-beige",
+                            "bg-[#0D6251] text-background px-6 py-2.5 font-bold text-primary-light",
                             "transition-all hover:brightness-110 active:scale-95",
                             "rounded-tl-2xl rounded-br-2xl rounded-tr-none rounded-bl-none"
                         )}
