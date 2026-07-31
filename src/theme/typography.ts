@@ -2,28 +2,26 @@ export const typography = {
     display: {
         hero: "font-display text-3xl sm:text-4xl md:text-6xl font-medium leading-tight",
 
-        section: "font-display text-[64px] font-bold leading-tight",
+        section: "font-display text-6xl font-bold leading-[1.05]",
 
         subtitle: "font-display md:text-2xl leading-tight",
-    },
 
-    body: {
-        regular: "font-body md:text-2xl leading-relaxed",
-    },
+        services: "font-display text-5xl font-bold leading-[1.05]",
 
+        card: "font-display text-3xl font-bold leading-[1.05]"
+    },
     ui: {
         navigation: "font-ui md:text-xl font-bold",
 
         button: "font-ui md:text-xl font-bold",
     },
     text: {
-        body: "font-body text-[20px] font-normal leading-relaxed text-primary",
-        highlight: "font-body text-[20px] font-bold leading-relaxed text-primary",
+        body: "font-body text-[20px] font-normal leading-6",
+        highlight: "font-body text-[20px] font-bold leading-relaxed",
 
     }
 };
 
 export type DisplayVariant = keyof typeof typography.display;
-export type BodyVariant = keyof typeof typography.body;
 export type UIVariant = keyof typeof typography.ui;
 export type TextVariant = keyof typeof typography.text;

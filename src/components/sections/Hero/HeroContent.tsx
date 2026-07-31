@@ -29,7 +29,6 @@ export default function HeroContent() {
             </Heading>
 
             <ul className={cn(
-                typography.body.regular,
                 "flex flex-col tracking-wide max-w-full"
             )}>
                 <Text as="li" variant="body">Caminhar junto.</Text>

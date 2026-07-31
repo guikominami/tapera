@@ -40,6 +40,9 @@ export default function AboutRight() {
                         {paragraph}
                     </Text>
                 ))}
+                <Text variant="highlight" className="mt-4">
+                    {aboutData.highlight}
+                </Text>
             </OrganicFrame>
 
         </article>

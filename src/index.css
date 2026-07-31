@@ -11,7 +11,10 @@
     /* Colors */
     --color-primary-dark: #460B13;
     --color-primary-light: #E2D6CA;
-    --color-secondary-light: #7CCED6;
+    --color-divider-dark: #7CCED6;
+    --color-divider-light: #72BCB6;
+    --color-services: #117068
+    
 
 }
 
