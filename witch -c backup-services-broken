@@ -1,0 +1,8 @@
+[33m9bfbee8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/services[m[33m, [m[1;31morigin/feature/services[m[33m)[m feat: implement Services section layout
+[33md41dda9[m[33m ([m[1;31morigin/feature/section-divider[m[33m, [m[1;32mfeature/section-divider[m[33m)[m refactor: organize design tokens and reusable OrganicFrame component
+[33mc1a02b6[m[33m ([m[1;31morigin/feature/quem-somos[m[33m, [m[1;32mfeature/quem-somos[m[33m)[m feat(ui): introduce reusable OrganicFrame component
+[33maf7e0c8[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/feature/header[m[33m, [m[1;32mmain[m[33m, [m[1;32mfeature/header[m[33m)[m feat: finaliza header com fonte DM Sans e botao com cantos assimetricos
+[33mcd0955b[m[33m ([m[1;31morigin/feature/hero[m[33m, [m[1;32mfeature/hero[m[33m)[m feat: finaliza ajustes de responsividade e estilo do hero
+[33m5e69ce7[m feat: ajusta layout responsivo do hero e integra tailwind v4
+[33m568955b[m feat: implement hero section
+[33m4a7b9b0[m chore: initial project setup

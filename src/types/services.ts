@@ -7,5 +7,6 @@ export interface ServicesText  {
     id: number;
     title: string;
     subtitle: string;
-    padding: string;
+    align: string;
+    frame: string;
 }

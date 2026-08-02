@@ -1,27 +1,20 @@
-import servicesItemCardLeft from "./servicesItemCardLeft.svg";
-import servicesItemCardRight from "./servicesItemCardRight.svg"
-import type { ServicesText } from "@/types/services";
 import Heading from "@/components/ui/Heading";
 import Text from "@/components/ui/Text/Text";
+import type { ServicesText } from "@/types/services";
 
 type ServicesItemProps = {
     item: ServicesText;
-    align: "left" | "right";
 };
 
-export type align = "left" | "right";
+export default function ServicesItem({ item }: ServicesItemProps) {
+    const { title, subtitle, align, frame } = item;
 
-export default function ServicesItem({ item, align }: ServicesItemProps,) {
     return (
         <div className="relative w-[420px] h-[310px]">
             <img
-                src={align === "right"
-                    ? servicesItemCardLeft
-                    : servicesItemCardRight
-                }
-                className="
-                    absolute inset-0
-                "
+                src={frame}
+                alt=""
+                className="absolute inset-0 w-full h-full"
             />
 
             <div
@@ -30,25 +23,22 @@ export default function ServicesItem({ item, align }: ServicesItemProps,) {
                     flex flex-col
                     justify-center
                     px-10
-                    ${align === "right"
-                        ? "items-end text-right"
-                        : "items-start text-left"
-                    }
                     text-primary-light
+                    ${align === "right" ? "text-right" : "text-left"}
                 `}
             >
                 <Heading
                     as="h3"
                     variant="card"
                 >
-                    {item.title}
+                    {title}
                 </Heading>
                 <Text
                     as="p"
                     variant="body"
                     className="mt-2"
                 >
-                    {item.subtitle}
+                    {subtitle}
                 </Text>
             </div>
         </div>

@@ -1,30 +1,39 @@
 import type {ServicesText, ServicesSection} from "@/types/services" 
 import servicesImage from "@/assets/images/services/services.png"
 
+import servicesItemLeftTop from "@/components/sections/Services/ServicesItem/frames/left-top.svg";
+import servicesItemLeftBottom from "@/components/sections/Services/ServicesItem/frames/left-bottom.svg";
+import servicesItemRightTop from "@/components/sections/Services/ServicesItem/frames/right-top.svg";
+import servicesItemRightBottom from "@/components/sections/Services/ServicesItem/frames/right-bottom.svg";
+
 export const servicesTextData: ServicesText[] = [
     {
         id: 1,
         title: "Recursos financeiros",
         subtitle: "Mobilizamos recursos financeiros de empresas e pessoas para apoiar os projetos.",
-        padding: "px-20 pt-20 pb-18",
+        align: "right",
+        frame: servicesItemLeftTop
     },
     {
         id: 2,
         title: "Gestão estratégica",
         subtitle: "Facilitamos espaços reflexivos, consultorias e apoio nos processos de tomada de decisão.",
-        padding: "px-20 pt-20 pb-18",
+        align: "left",
+        frame: servicesItemRightTop
     },
     {
         id: 3,
         title: "Fortalecimento das equipes",
         subtitle: "Oferecemos espaços de formação e cuidado.",
-        padding: "px-20 pt-20 pb-18",       
+        align: "right",
+        frame: servicesItemLeftBottom       
     },
     {
         id: 4,
         title: "Apoio pedagógico",
         subtitle: "Ajudamos a planejar e implementar a estratégia pedagógica das organizações.",
-        padding: "px-20 pt-20 pb-18",      
+        align: "left",
+        frame: servicesItemRightBottom      
     },    
 ]
 

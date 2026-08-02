@@ -1,6 +1,6 @@
 import Heading from "@/components/ui/Heading"
+import servicesCardFrame from "./frame/card-frame.svg"
 import type { ServicesSection } from "@/types/services"
-import servicesCardFrame from "./servicesCardFrame.svg"
 
 type ServicesCardProps = {
     items: ServicesSection
