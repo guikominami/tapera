@@ -1,21 +1,25 @@
 import ServicesGrid from "./ServicesGrid"
 import ServicesRight from "./ServicesRight";
+import Container from "@/components/ui/Container/Container";
 
 export default function Services() {
     return (
         <section
             id="services"
             aria-labelledby="services-title"
-            className="
-                flex
-                items-center
-                justify-center
-                bg-services
-                gap-34
-            "
+            className="bg-services"
         >
-            <ServicesGrid />
-            <ServicesRight />
+            <Container
+                className="
+                    flex
+                    items-center
+                    justify-center
+                    pt-12
+                ">
+                <ServicesGrid />
+                <ServicesRight />
+            </Container>
+
         </section>
     );
 }

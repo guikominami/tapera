@@ -8,7 +8,7 @@ import { typography } from "@/theme/typography"; // 2. Importe o seu arquivo de 
 export default function Header() {
     return (
         <header>
-            <Container className="flex items-center justify-between py-6 px-16">
+            <Container className="flex items-center justify-between py-6">
                 <Logo />
 
                 <div className="flex items-center gap-8">
