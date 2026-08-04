@@ -1,5 +1,4 @@
 import FooterEmailInfo from "./FooterEmailInfo/FooterEmailInfo";
-import Container from "@/components/ui/Container";
 import FooterLogoInfo from "./FooterLogoInfo/FooterLogoInfo";
 
 export default function Footer() {
@@ -8,10 +7,10 @@ export default function Footer() {
             id="footer"
             className="bg-divider-light"
         >
-            <div>
-                <FooterEmailInfo />
-                <FooterLogoInfo />
-            </div>
+
+            <FooterEmailInfo />
+            <FooterLogoInfo />
+
         </section>
     );
 }

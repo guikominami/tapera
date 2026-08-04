@@ -20,6 +20,7 @@ export const typography = {
         body: "font-body text-[20px] font-normal leading-6",
         highlight: "font-body text-[20px] font-bold leading-relaxed",
         footer: "font-display md:text-4xl font-bold",
+        team: "font-display md:text-2xl font-bold",
     }
 };
 

@@ -9,15 +9,16 @@ export default function About() {
             id="about"
             aria-labelledby="about-title"
         >
-            <Container className="
+            <Container
+                className="
                     relative
                     z-10
                     flex
                     justify-between
                     items-end
                     py-30
-                ">
-
+                "
+            >
                 <div className="max-w-[651px] w-full">
                     <AboutLeft />
                 </div>
@@ -25,8 +26,6 @@ export default function About() {
                 <div className="max-w-[879px] w-full">
                     <AboutRight />
                 </div>
-
-
 
             </Container>
             <SectionDivider />
