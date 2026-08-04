@@ -13,8 +13,8 @@
     --color-primary-light: #E2D6CA;
     --color-divider-dark: #7CCED6;
     --color-divider-light: #72BCB6;
-    --color-services: #117068
-    
+    --color-services: #117068;
+    --color-footer: #15645B;
 }
 
 html, body {

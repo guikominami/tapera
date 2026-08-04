@@ -8,7 +8,8 @@ export const typography = {
 
         services: "font-display text-5xl font-bold leading-[1.05]",
 
-        card: "font-display text-3xl font-bold leading-[1.05]"
+        card: "font-display text-3xl font-bold leading-[1.05]",
+
     },
     ui: {
         navigation: "font-ui md:text-xl font-bold",
@@ -18,7 +19,7 @@ export const typography = {
     text: {
         body: "font-body text-[20px] font-normal leading-6",
         highlight: "font-body text-[20px] font-bold leading-relaxed",
-
+        footer: "font-display md:text-4xl font-bold",
     }
 };
 
