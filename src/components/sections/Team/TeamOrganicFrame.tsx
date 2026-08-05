@@ -35,7 +35,7 @@ export default function TeamOrganicFrame({
                     flex
                     items-center
                     justify-center
-                    px-6
+                    px-3
                     ml-10
                     ${weight}    
                 `}

@@ -7,6 +7,7 @@ import References from "@/components/sections/References/References";
 import Contact from "@/components/sections/Contact/Contact";
 import Team from "./components/sections/Team";
 import Footer from "@/components/sections/Footer/Footer";
+import Organisations from "./components/sections/Organisations/Organisations";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <About />
         <Services />
         <Actions />
+        <Organisations />
         <Team />
         <References />
         <Contact />

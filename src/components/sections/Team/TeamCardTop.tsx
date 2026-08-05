@@ -2,6 +2,7 @@ import type { TeamMembers } from "@/types/team";
 import TeamOrganicFrame from "./TeamOrganicFrame";
 import TeamCardEmail from "./TeamCardEmail";
 import Text from "@/components/ui/Text/Text";
+import Heading from "@/components/ui/Heading";
 
 type TeamCardProps = {
     member: TeamMembers;
@@ -19,13 +20,13 @@ export default function TeamCardTop({ member }: TeamCardProps) {
 
             {/* conteúdo */}
             <div className="relative">
-                <Text
-                    as="p"
-                    variant="footer"
+                <Heading
+                    as="h2"
+                    variant="team"
                     className="text-left ml-20 mt-20"
                 >
                     {member.name}
-                </Text>
+                </Heading>
 
                 <div className="relative -ml-40 mt-15 z-10">
                     <TeamOrganicFrame variant="top">

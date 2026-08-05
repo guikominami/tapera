@@ -3,6 +3,7 @@ import AboutLeft from "./AboutLeft";
 import AboutRight from "./AboutRight";
 import SectionDivider from "../SectionDivider/SectionDivider"
 
+
 export default function About() {
     return (
         <section

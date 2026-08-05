@@ -4,11 +4,13 @@ export const typography = {
 
         section: "font-display text-6xl font-bold leading-[1.05]",
 
-        subtitle: "font-display md:text-2xl leading-tight",
+        subtitle: "font-display text-2xl leading-tight",
 
         services: "font-display text-5xl font-bold leading-[1.05]",
 
-        card: "font-display text-3xl font-bold leading-[1.05]",
+        card: "font-display text-4xl font-bold leading-[1.05]",
+
+        team: "font-display text-3xl font-bold leading-[1.05]",
 
     },
     ui: {
@@ -17,8 +19,8 @@ export const typography = {
         button: "font-ui md:text-xl font-bold",
     },
     text: {
-        body: "font-body text-[20px] font-normal leading-6",
-        highlight: "font-body text-[20px] font-bold leading-relaxed",
+        body: "font-body text-xl font-normal leading-8",
+        highlight: "font-body text-2xl font-bold leading-relaxed",
         footer: "font-display md:text-4xl font-bold",
         team: "font-display md:text-2xl font-bold",
     }
