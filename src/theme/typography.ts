@@ -1,14 +1,16 @@
 export const typography = {
     display: {
-        hero: "font-display text-3xl sm:text-4xl md:text-6xl font-medium leading-tight",
+        hero: "font-display text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-medium leading-tight",
 
-        section: "font-display text-6xl font-bold leading-[1.05]",
+        section: "font-display text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05]",
 
         subtitle: "font-display text-2xl leading-tight",
 
         services: "font-display text-5xl font-bold leading-[1.05]",
 
-        card: "font-display text-4xl font-bold leading-[1.05]",
+        card: "font-display text-2xl lg:text-4xl font-bold leading-[1.05]",
+
+        orgs: "font-display text-lg lg:text-4xl font-bold leading-[1.05]",
 
         team: "font-display text-3xl font-bold leading-[1.05]",
 
@@ -19,9 +21,9 @@ export const typography = {
         button: "font-ui md:text-xl font-bold",
     },
     text: {
-        body: "font-body text-xl font-normal leading-8",
-        highlight: "font-body text-2xl font-bold leading-relaxed",
-        footer: "font-display md:text-4xl font-bold",
+        body: "font-body text-base sm:text-lg md:text-2xl font-normal leading-relaxed md:leading-8",
+        highlight: "font-body text-base sm:text-lg md:text-xl font-bold leading-relaxed",
+        footer: "font-display text-lg md:text-2xl font-bold",
         team: "font-display md:text-2xl font-bold",
     }
 };

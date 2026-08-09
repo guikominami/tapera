@@ -9,7 +9,10 @@ export default function Actions() {
             id="actions"
             className="
                 bg-services
-                pb-20
+                pt-10
+                pb-4
+                lg:pb-20
+                lg:pt-0
             "
         >
             <Container>

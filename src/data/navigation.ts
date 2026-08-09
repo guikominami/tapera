@@ -3,14 +3,14 @@ import type { NavigationItem } from "@/types/navigation";
 export const navigation: NavigationItem[] = [
   {
     label: "Quem somos",
-    href: "#quem-somos",
+    href: "#about",
   },
   {
     label: "Atuação",
-    href: "#atuacao",
+    href: "#actions",
   },
   {
     label: "Como ajudar",
-    href: "#como-ajudar",
+    href: "#services",
   },
 ];

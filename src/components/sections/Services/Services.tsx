@@ -12,12 +12,20 @@ export default function Services() {
             <Container
                 className="
                     flex
-                    items-center
-                    justify-center
-                    pt-12
+                    flex-col
+                    pt-6
+                    lg:pt-12
+                    lg:items-center
+                    lg:flex-row
+                    lg:justify-center 
                 ">
-                <ServicesGrid />
-                <ServicesRight />
+                <div className="order-2 lg:order-1">
+                    <ServicesGrid />
+                </div>
+
+                <div className="order-1 lg:order-2">
+                    <ServicesRight />
+                </div>
             </Container>
 
         </section>

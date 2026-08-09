@@ -7,11 +7,14 @@ import { typography } from "@/theme/typography"; // 2. Importe o seu arquivo de 
 
 export default function Header() {
     return (
-        <header>
-            <Container className="flex items-center justify-between py-6">
+        <header className="h-24 md:h-28 lg:h-32 flex items-center">
+            <Container className="flex items-center justify-between">
+
+                {/* Logo */}
                 <Logo />
 
-                <div className="flex items-center gap-8">
+                {/* Desktop */}
+                <div className="hidden md:flex items-center gap-8">
                     <Navigation items={navigation} />
 
                     <a
@@ -26,6 +29,16 @@ export default function Header() {
                         Contato
                     </a>
                 </div>
+
+                {/* Mobile */}
+                <button
+                    type="button"
+                    className="md:hidden text-2xl"
+                    aria-label="Abrir menu"
+                >
+                    ☰
+                </button>
+
             </Container>
         </header>
     );

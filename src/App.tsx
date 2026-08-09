@@ -14,7 +14,7 @@ function App() {
     <>
       <Header />
 
-      <main>
+      <main className="overflow-x-hidden">
         <Hero />
         <About />
         <Services />

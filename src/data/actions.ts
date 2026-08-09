@@ -18,7 +18,7 @@ export const actionsTextData: ActionsTextData[] = [
         subtitle: "Nossa atuação com cada organização é única. A partir da escuta atenta construímos um plano de trabalho conectado com as necessidades e respeitando a singularidade de cada projeto.",
         column: 1,
         frame: actionsItemColumn1Top,
-        height: "h-[424px]"
+        height: "h-[280px] lg:h-[424px]"
     },
     {
         id: 2,
@@ -26,7 +26,7 @@ export const actionsTextData: ActionsTextData[] = [
         subtitle: "Acreditamos no valor dos apoios de longo prazo, que trazem segurança e tempo para o desenvolvimento.",
         column: 1,
         frame: actionsItemColumn1Bottom,
-        height: "h-[324px]"
+        height: "h-[250px] lg:h-[324px]"
     },
     {
         id: 3,
@@ -34,7 +34,7 @@ export const actionsTextData: ActionsTextData[] = [
         subtitle: "Cultivamos relações baseadas na confiança, reconhecendo a autonomia de cada organização e criando espaços seguros onde possam estar à vontade para trazer suas questões.",
         column: 2,
         frame: actionsItemColumn2Top,
-        height: "h-[374px]"
+        height: "h-[260px] lg:h-[374px]"
     },
     {
         id: 4,
@@ -42,7 +42,7 @@ export const actionsTextData: ActionsTextData[] = [
         subtitle: "Valorizamos os diferentes saberes e culturas, a diversidade de caminhos possíveis. Acreditamos no potencial das trocas respeitosas e horizontais. Chegar com escuta e abertura para construir respostas coletivamente.",
         column: 2,
         frame: actionsItemColumn2Bottom,
-        height: "h-[374px]"
+        height: "h-[290px] lg:h-[374px]"
     },    
     {
         id: 5,
@@ -50,7 +50,7 @@ export const actionsTextData: ActionsTextData[] = [
         subtitle: "Gostamos de estar perto, próximos da realidade de cada organização, acompanhando e atuando junto.",
         column: 3,
         frame: actionsItemColumn3Top,
-        height: "h-[324px]"
+        height: "h-[220px] lg:h-[324px]"
     },
     {
         id: 6,
@@ -58,7 +58,7 @@ export const actionsTextData: ActionsTextData[] = [
         subtitle: "Acreditamos que o desenvolvimento individual está intrinsecamente ligado ao social e coletivo. Estamos conectados com nosso entorno e nossas oportunidades de nos desenvolver integralmente se potencializam com relações saudáveis e comunidades fortes. ",
         column: 3,
         frame: actionsItemColumn3Bottom,
-        height: "h-[424px]"
+        height: "h-[320px] lg:h-[424px]"
 
     }
 ]

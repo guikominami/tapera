@@ -10,11 +10,27 @@ export default function ServicesItem({ item }: ServicesItemProps) {
     const { title, subtitle, align, frame } = item;
 
     return (
-        <div className="relative w-[420px] h-[310px]">
+        <div
+            className="
+                relative
+                w-full
+                max-w-[340px]
+                aspect-[340/270]
+
+                lg:w-[420px]
+                lg:h-[310px]
+                lg:max-w-none
+                lg:aspect-auto
+            ">
             <img
                 src={frame}
                 alt=""
-                className="absolute inset-0 w-full h-full"
+                className="
+                    absolute 
+                    inset-0 
+                    w-full 
+                    h-full
+                "
             />
 
             <div
@@ -24,7 +40,7 @@ export default function ServicesItem({ item }: ServicesItemProps) {
                     justify-center
                     px-10
                     text-primary-light
-                    ${align === "right" ? "text-right" : "text-left"}
+                    ${align === "right" ? "lg:text-right" : "lg:text-left"}
                 `}
             >
                 <Heading

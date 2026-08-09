@@ -20,7 +20,7 @@ export const organisations: Organisations[] = [
     {
         id: 2,
         name: "Favela da Paz",
-        description: "Quanto mais conhecemos o Favela da Paz, mais nos surpreendemos com a quantidade de frentes do Instituto. Além de ser uma referência em tecnologias sustentáveis, são realizados trabalhos com música, alimentação, audiovisual, bem estar, artes e um lindo trabalho comunitário",
+        description: "Quanto mais conhecemos o Favela da Paz, mais nos surpreendemos com a quantidade de frentes do Instituto. Além de ser uma referência em tecnologias sustentáveis, são realizados trabalhos com música, alimentação, audiovisual, bem estar, artes e um lindo trabalho comunitário.",
         logo: logoIfp
     },
     {

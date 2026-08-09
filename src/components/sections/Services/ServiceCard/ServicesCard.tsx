@@ -11,25 +11,30 @@ export default function ServicesCard({ items }: ServicesCardProps) {
         <div
             className="
                 relative
-                w-[651px] 
-                h-[1108px]
+                w-full
+                lg:w-[651px]
+                lg:h-[1108px]
             "
         >
             <img
                 src={servicesCardFrame}
                 alt=""
                 className="
-                    absolute inset-0 
-                    w-full 
-                    h-full
-                    z-0
+                    block
+                    w-full
+                    h-auto
+                    lg:absolute
+                    lg:inset-0
+                    lg:w-full
+                    lg:h-full
                 "
             />
             <div
                 className="
                     absolute inset-0
                     flex flex-col
-                    z-10 pt-10
+                    z-10 
+                    lg:pt-10
                 "
             >
                 <Heading
@@ -37,26 +42,30 @@ export default function ServicesCard({ items }: ServicesCardProps) {
                     as="h3"
                     variant="section"
                     className="
-                        items-end 
+                        items-end
                         text-right 
-                        pr-8
                         text-primary-light
+                        mt-10
+                        mr-6
+                        lg:m-0
+                        lg:pr-8
                     "
                 >
                     {items.title}
                 </Heading>
                 <div
                     className="
-                        mt-16
+                        mt-8
                         h-[648px]
                         overflow-hidden
+                        lg:mt-16
                     "
                 >
                     <img
                         src={items.image}
                         className="
                         w-full
-                        h-full
+                        lg:h-full
                         object-cover
                     "
                     />

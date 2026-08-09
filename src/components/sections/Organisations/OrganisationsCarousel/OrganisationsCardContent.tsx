@@ -8,28 +8,29 @@ type OrganisationsContentProps = {
 
 export default function OrganisationsCardContent({ name, description }: OrganisationsContentProps) {
     return (
-
         <div
             className={`
-                    absolute
-                    inset-0
-                    flex
-                    flex-col
-                    items-end
-                    justify-start
-                    px-16
-                    py-15
-                `}
+                absolute
+                inset-0
+                flex
+                flex-col
+                
+                justify-start
+                
+                items-end
+                px-16
+                py-15
+            `}
         >
             <Heading
                 as="h2"
-                variant="card"
+                variant="orgs"
                 className="
-                            text-right
-                            w-[200px]
-                            h-[180px]
-                            
-                        "
+                    text-right
+                    w-[200px]
+                    h-[180px]
+                    
+                "
             >
                 {name}
             </Heading>
@@ -38,10 +39,9 @@ export default function OrganisationsCardContent({ name, description }: Organisa
                 as="p"
                 variant="body"
                 className="
-                            flex    
-                            text-right
-                            
-                        "
+                    text-left
+                    lg:text-right
+                "
             >
                 {description}
             </Text>

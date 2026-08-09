@@ -9,22 +9,26 @@ export default function About() {
         <section
             id="about"
             aria-labelledby="about-title"
+            className="mt-8 sm:mt-20"
         >
             <Container
                 className="
                     relative
                     z-10
                     flex
-                    justify-between
-                    items-end
-                    py-30
+                    flex-col
+                    items-center
+                    lg:flex-row
+                    lg:items-start
+                    lg:justify-between
+                    lg:gap-0
                 "
             >
-                <div className="max-w-[651px] w-full">
+                <div className="w-full lg:max-w-[550px]">
                     <AboutLeft />
                 </div>
 
-                <div className="max-w-[879px] w-full">
+                <div className="w-full lg:max-w-[850px]">
                     <AboutRight />
                 </div>
 

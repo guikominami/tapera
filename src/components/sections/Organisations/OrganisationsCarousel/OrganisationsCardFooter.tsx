@@ -1,30 +1,46 @@
-import cardFrameFooter from "@/assets/decorations/organisations/card-frame-footer.svg"
 import Text from "@/components/ui/Text/Text";
 
 export default function OrganisationsCardFooter() {
     return (
-        <div className="absolute right-10 -bottom-10 z-20">
-            <div className="relative">
-                <img
-                    src={cardFrameFooter}
-                    alt=""
-                />
+        <div
+            className="
+                absolute
+                bottom-[-35px]
+                lg:left-[320px]
+                w-full
+                flex
+                justify-center
+                lg:justify-start
+            "
+        >
+            <button
+                type="button"
+                className="
+                    relative
+                    flex
+                    items-center
+                    justify-center
 
+                    w-[220px]
+                    min-h-[70px]
+                    rounded-[45px_0_45px_0]
+                    bg-[#F51B3A]
+
+                    bg-[#F51B3A]
+
+                    transition-all
+                    hover:brightness-110
+                    active:scale-95
+                "
+            >
                 <Text
-                    as="p"
+                    as="span"
                     variant="footer"
-                    className="
-                        absolute
-                        inset-0
-                        flex
-                        items-center
-                        justify-center
-                        text-primary-light
-                    "
+                    className="text-primary-light"
                 >
                     Saiba mais
                 </Text>
-            </div>
+            </button>
         </div>
     )
 }

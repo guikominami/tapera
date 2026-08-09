@@ -9,7 +9,7 @@ type HeadingProps = {
     id?: string;
 };
 
-export default function Heading({ as: Tag = "h2", variant, className, children, id }: HeadingProps) {
+export default function Heading({ as: Tag = "h2", variant, className, children }: HeadingProps) {
     const styles = typography.display[variant];
 
     return (

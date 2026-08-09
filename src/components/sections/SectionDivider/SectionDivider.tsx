@@ -6,11 +6,14 @@ export default function SectionDivider() {
         <section
             className="
                 relative
-                h-[302px]
+                h-[60px]
+                w-full
                 overflow-hidden
                 bg-divider-light
                 z-0
-                -mt-60
+                -mt-16
+                lg:-mt-30
+                lg:h-[302px]
             "
         >
             <img
@@ -19,11 +22,16 @@ export default function SectionDivider() {
                 className="
                     absolute
                     left-1/2
-                    top-22
-                    h-[302px]
+                    top-0
+                    h-[160px]
                     max-w-none
+                    w-[100%]
                     -translate-x-1/2
-                    -translate-y-[90px]
+                    -translate-y-[50px]
+
+                    lg:top-22
+                    lg:h-[302px]
+                    lg:-translate-y-[90px]
                 "
             />
         </section>
