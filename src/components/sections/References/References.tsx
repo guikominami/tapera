@@ -3,6 +3,7 @@ import Heading from "@/components/ui/Heading/Heading";
 import Container from "@/components/ui/Container/Container";
 import { referencesSection } from "@/data/references";
 import ReferencesGrid from "./ReferencesGrid";
+import ReferencesGridMobile from "./ReferencesGridMobile";
 
 export default function References() {
     return (
@@ -28,7 +29,12 @@ export default function References() {
                 >
                     {referencesSection.title}
                 </Heading>
-                <ReferencesGrid />
+                <div className="hidden lg:block">
+                    <ReferencesGrid />
+                </div>
+                <div className="block lg:hidden">
+                    <ReferencesGridMobile />
+                </div>
             </Container>
         </section >
     );

@@ -7,13 +7,14 @@ export default function OrganisationsCarousel() {
             <div className="
                 flex
                 gap-10
-                px-12
+                px-2
                
                 overflow-x-auto
                 snap-x
                 snap-mandatory
                 
                 py-16
+                lg:px-12                
 
             ">
                 {organisations.map((organisation) => (

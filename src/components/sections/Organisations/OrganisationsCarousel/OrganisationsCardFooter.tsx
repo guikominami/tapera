@@ -6,7 +6,7 @@ export default function OrganisationsCardFooter() {
             className="
                 absolute
                 bottom-[-35px]
-                lg:left-[320px]
+                lg:left-[300px]
                 w-full
                 flex
                 justify-center
@@ -20,13 +20,13 @@ export default function OrganisationsCardFooter() {
                     flex
                     items-center
                     justify-center
+                    min-h-[60px]
+                    w-[180px]
 
-                    w-[220px]
-                    min-h-[70px]
+                    lg:w-[220px]
+                    lg:min-h-[70px]
                     rounded-[45px_0_45px_0]
-                    bg-[#F51B3A]
-
-                    bg-[#F51B3A]
+                    bg-orgs-footer
 
                     transition-all
                     hover:brightness-110

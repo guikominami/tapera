@@ -14,13 +14,19 @@ export default function ReferencesItem({ item }: ReferencesItemProps) {
             <img
                 src={frame}
                 alt=""
-                className="absolute inset-0 w-full h-full"
+                className="
+                    absolute 
+                    inset-0 
+                    w-full 
+                    h-full
+                "
             />
             <div
                 className={`
                     absolute inset-0
                     flex flex-col
                     justify-center
+                    px:10
                     px-20
                     text-primary-dark
                 `}
@@ -35,7 +41,7 @@ export default function ReferencesItem({ item }: ReferencesItemProps) {
                 <Text
                     as="p"
                     variant="body"
-                    className="mt-2"
+                    className="mt-1"
                 >
                     {subtitle}
                 </Text>

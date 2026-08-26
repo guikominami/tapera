@@ -16,7 +16,8 @@
     --color-services: #117068;
     --color-footer: #15645B;
     --color-email-team: #FCE38C;
-    --color-orgs-mobile: #EEACAC
+    --color-orgs-mobile: #EEACAC;
+    --color-orgs-footer: #F51B3A;
 }
 
 html, body {
