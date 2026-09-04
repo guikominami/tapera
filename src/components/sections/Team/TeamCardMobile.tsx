@@ -11,7 +11,7 @@ export default function TeamCardMobile({ members }: TeamCardProps) {
     return (
         <div>
             {members.map(item => (
-                <div>
+                <div key={item.name}>
                     <Heading
                         as="h2"
                         variant="card"
@@ -30,7 +30,7 @@ export default function TeamCardMobile({ members }: TeamCardProps) {
                         rounded-[0_70px_0_70px]                      
                     `}>
                         <div>
-                            <Text as="p" variant="team">
+                            <Text as="p" variant="body" className="px-8">
                                 {item.description}
                             </Text>
                         </div>

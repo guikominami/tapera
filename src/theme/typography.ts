@@ -23,8 +23,8 @@ export const typography = {
     text: {
         body: "font-body text-base sm:text-lg md:text-2xl font-normal leading-relaxed md:leading-6.5",
         highlight: "font-body text-base sm:text-lg md:text-xl font-bold leading-relaxed",
-        footer: "font-display text-lg md:text-2xl font-bold",
-        team: "font-display md:text-2xl font-bold",
+        footer: "font-display text-md md:text-2xl font-bold",
+        team: "font-body text-lg md:text-2xl md:font-bold",
     }
 };
 

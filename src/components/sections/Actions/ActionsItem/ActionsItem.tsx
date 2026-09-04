@@ -22,7 +22,7 @@ export default function ActionsItem({ item }: ActionsItemProps) {
                     absolute inset-0
                     flex flex-col
                     justify-center
-                    px-10
+                    px-9
                     text-primary-dark
                 "
             >

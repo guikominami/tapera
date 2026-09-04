@@ -1,5 +1,6 @@
 import FooterEmailInfo from "./FooterEmailInfo/FooterEmailInfo";
 import FooterLogoInfo from "./FooterLogoInfo/FooterLogoInfo";
+import FooterEmailInfoMobile from "./FooterEmailInfo/FooterEmailInfoMobile";
 
 export default function Footer() {
     return (
@@ -7,10 +8,14 @@ export default function Footer() {
             id="footer"
             className="bg-divider-light"
         >
-
-            <FooterEmailInfo />
-            <FooterLogoInfo />
-
-        </section>
+            <div className="hidden lg:block">
+                <FooterEmailInfo />
+                <FooterLogoInfo />
+            </div>
+            <div className="block lg:hidden">
+                <FooterEmailInfoMobile />
+                <FooterLogoInfo />
+            </div>
+        </section >
     );
 }

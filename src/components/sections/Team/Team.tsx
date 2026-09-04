@@ -6,7 +6,7 @@ import TeamCardMobile from "./TeamCardMobile";
 
 export default function Team() {
     return (
-        <section id="team" className="py-20">
+        <section id="team" className="py-4 md:py-20">
             <Container
                 className="
                     flex

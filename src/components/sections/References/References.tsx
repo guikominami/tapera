@@ -15,7 +15,8 @@ export default function References() {
                 className="
                     flex
                     flex-col
-                    mt-20
+                    mt-8
+                    md:mt-20
                 ">
                 <Heading
                     as="h1"
@@ -24,7 +25,8 @@ export default function References() {
                         w-[449px] 
                         text-left 
                         text-primary-dark 
-                        mb-12
+                        mb-6
+                        md:mb-12
                     "
                 >
                     {referencesSection.title}
