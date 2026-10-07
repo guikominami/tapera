@@ -33,19 +33,16 @@ export default function Hero() {
                             absolute
                             left-1/2
                             -translate-x-1/2
-                            top-40
-                            w-[850px]
-                            max-w-none
-                            sm:w-[1000px]
-                            md:w-[1200px]
                             top-[230px]
-                            lg:w-[1500px]
+                            w-[700px]
+                            sm:w-[850px]
+                            md:w-[1000px]
+                            lg:w-[1150px]
+                            xl:w-[1350px]
+                            2xl:w-[1500px]
 
                             xl:top-[300px]
-
                             2xl:top-[280px]
-
-
                         "
                     />
                 </div>

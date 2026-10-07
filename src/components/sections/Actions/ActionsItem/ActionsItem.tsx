@@ -14,7 +14,12 @@ export default function ActionsItem({ item }: ActionsItemProps) {
             <img
                 src={frame}
                 alt=""
-                className="absolute inset-0 w-full h-full"
+                className="
+                    absolute 
+                    inset-0 
+                    w-full 
+                    h-full
+                "
             />
 
             <div

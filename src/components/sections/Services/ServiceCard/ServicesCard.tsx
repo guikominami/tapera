@@ -12,8 +12,14 @@ export default function ServicesCard({ items }: ServicesCardProps) {
             className="
                 relative
                 w-full
-                lg:w-[651px]
+                lg:w-[551px]
                 lg:h-[1108px]
+                
+                xl:w-[551px]
+                xl:h-[908px]                
+                
+                2xl:w-[651px]
+                2xl:h-[1108px]                
             "
         >
             <img
@@ -23,10 +29,13 @@ export default function ServicesCard({ items }: ServicesCardProps) {
                     block
                     w-full
                     h-auto
+
                     lg:absolute
                     lg:inset-0
                     lg:w-full
-                    lg:h-full
+                    lg:h-full  
+
+                    xl:h-auto                    
                 "
             />
             <div
@@ -65,7 +74,6 @@ export default function ServicesCard({ items }: ServicesCardProps) {
                         src={items.image}
                         className="
                         w-full
-                        lg:h-full
                         object-cover
                     "
                     />

@@ -10,9 +10,12 @@ export default function ActionsGrid() {
                 flex
                 flex-col
                 gap-0
+                lg:gap-6
                 lg:grid 
                 lg:grid-cols-[repeat(3,508px)] 
-                lg:gap-6
+                xl:grid-cols-[repeat(3,448px)]                 
+                xl:gap-4
+                2xl:grid-cols-[repeat(3,508px)]                 
             "
         >
             {columns.map((column) => (
@@ -23,6 +26,8 @@ export default function ActionsGrid() {
                         lg:flex 
                         lg:flex-col 
                         lg:gap-6
+                        xl:gap-0
+                        2xl:gap-6
                     "
                 >
                     {actionsTextData

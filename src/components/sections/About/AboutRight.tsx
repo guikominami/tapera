@@ -25,7 +25,7 @@ export default function AboutRight() {
                     className="
                         w-[90%]
                         max-w-[340px]
-                        lg:w-auto
+                        lg:w-[80%]
                         lg:max-w-none
                     "
                 />
@@ -42,9 +42,17 @@ export default function AboutRight() {
                     md:px-10
                     md:pt-20
 
-                    lg:px-22
+                    lg:px-12
                     lg:pt-34
                     lg:pb-18
+
+                    xl:px-24
+                    xl:pt-40
+                    xl:pb-20
+
+                    2xl:px-28
+                    2xl:pt-40
+                    2xl:pb-28
                 "
             >
                 {aboutData.paragraphs.map((paragraph, index) => (

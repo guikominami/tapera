@@ -17,10 +17,17 @@ export default function ServicesItem({ item }: ServicesItemProps) {
                 max-w-[340px]
                 aspect-[340/270]
 
-                lg:w-[420px]
+                lg:w-[320px]
                 lg:h-[310px]
                 lg:max-w-none
                 lg:aspect-auto
+
+                xl:w-[360px]
+                xl:h-[260px]
+
+                2xl:w-[420px]
+                2xl:h-[310px]                
+
             ">
             <img
                 src={frame}

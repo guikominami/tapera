@@ -12,8 +12,10 @@ export default function SectionDivider() {
                 bg-divider-light
                 z-0
                 -mt-16
-                lg:-mt-30
-                lg:h-[302px]
+                lg:-mt-30   
+                lg:h-[160px]
+                xl:h-[234px]
+                2xl:h-[302px]
             "
         >
             <img
@@ -29,9 +31,12 @@ export default function SectionDivider() {
                     -translate-x-1/2
                     -translate-y-[50px]
 
-                    lg:top-22
+                    lg:top-5
                     lg:h-[302px]
                     lg:-translate-y-[90px]
+
+                    xl:top-14                 
+                    2xl:top-22
                 "
             />
         </section>

@@ -12,8 +12,10 @@ export default function HeroContent() {
                 w-full
                 max-w-4xl
                 px-4
-                md:px-6
-                lg:px-0
+                md:px-0
+                lg:max-w-3xl
+                xl:max-w-4xl
+                2xl:max-w-5xl
                 text-left
                 text-primary-light
             "
@@ -26,10 +28,11 @@ export default function HeroContent() {
                     max-w-4xl
                     text-primary-light
                     leading-tight
-                        
                     sm:max-w-[500px]
-                    md:max-w-[520px]
-                    lg:max-w-[1000px]
+                    md:max-w-[560px]
+                    lg:max-w-[720px]
+                    xl:max-w-[900px]
+                    2xl:max-w-[1000px]
      
                     [-webkit-text-stroke:2px_#460B13] 
                     [paint-order:stroke_fill]
