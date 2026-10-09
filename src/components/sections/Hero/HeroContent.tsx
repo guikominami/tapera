@@ -25,16 +25,14 @@ export default function HeroContent() {
                 as="h1"
                 variant="hero"
                 className="
-                    max-w-4xl
+                    max-w-[720px]
+                    xl:max-w-[800px]
+                    2xl:max-w-[1000px]
+
                     text-primary-light
                     leading-tight
-                    sm:max-w-[500px]
-                    md:max-w-[560px]
-                    lg:max-w-[720px]
-                    xl:max-w-[900px]
-                    2xl:max-w-[1000px]
-     
-                    [-webkit-text-stroke:2px_#460B13] 
+
+                    [-webkit-text-stroke:2px_#460B13]
                     [paint-order:stroke_fill]
                 "
             >

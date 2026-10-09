@@ -34,15 +34,12 @@ export default function Hero() {
                             left-1/2
                             -translate-x-1/2
                             top-[230px]
-                            w-[700px]
-                            sm:w-[850px]
-                            md:w-[1000px]
-                            lg:w-[1150px]
-                            xl:w-[1350px]
-                            2xl:w-[1500px]
 
-                            xl:top-[300px]
-                            2xl:top-[280px]
+                            w-[1000px]
+                            xl:w-[1150px]
+                            min-[1400px]:w-[1500px]
+
+                            min-[1400px]:top-[300px]
                         "
                     />
                 </div>

@@ -46,7 +46,7 @@ export default function AboutRight() {
                     lg:pt-34
                     lg:pb-18
 
-                    xl:px-24
+                    xl:px-16
                     xl:pt-40
                     xl:pb-20
 

@@ -9,15 +9,25 @@ export default function ReferencesGrid() {
         <div
             className="
                 grid 
-                grid-cols-2 
+                grid-cols-2
                 gap-6
+
+                xl:gap-2
+                xl:items-start
+
+                2xl:gap-6
             ">
             {columns.map((column) => (
                 <div
                     key={column}
                     className="
+                        flex
                         flex-col 
                         gap-6
+                        
+                        xl:w-full   
+                        xl:justify-start
+                        xl:gap-0
                     "
                 >
                     {referencesTextData

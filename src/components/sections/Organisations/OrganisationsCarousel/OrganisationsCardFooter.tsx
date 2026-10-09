@@ -6,11 +6,17 @@ export default function OrganisationsCardFooter() {
             className="
                 absolute
                 bottom-[-35px]
-                lg:left-[300px]
+
                 w-full
                 flex
                 justify-center
+
+                lg:left-[140px]
                 lg:justify-start
+
+                xl:left-[200px]                
+
+                2xl:left-[300px]                
             "
         >
             <button

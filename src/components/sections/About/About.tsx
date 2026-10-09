@@ -24,22 +24,11 @@ export default function About() {
                     lg:gap-0
                 "
             >
-                <div
-                    className="
-                        w-full 
-                        lg:max-w-[450px]    
-                        xl:max-w-[550px]
-                        ">
+                <div className="w-full">
                     <AboutLeft />
                 </div>
 
-                <div
-                    className="
-                        w-full 
-                        lg:max-w-[650px]
-                        xl:max-w-[700px]
-                        2xl:max-w-[850px]
-                    ">
+                <div className="w-full lg:w-[140%] xl:w-full">
                     <AboutRight />
                 </div>
 

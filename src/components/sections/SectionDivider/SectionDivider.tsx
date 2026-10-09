@@ -14,8 +14,8 @@ export default function SectionDivider() {
                 -mt-16
                 lg:-mt-30   
                 lg:h-[160px]
-                xl:h-[234px]
-                2xl:h-[302px]
+                xl:h-[208px]
+                2xl:h-[300px]
             "
         >
             <img
@@ -35,7 +35,7 @@ export default function SectionDivider() {
                     lg:h-[302px]
                     lg:-translate-y-[90px]
 
-                    xl:top-14                 
+                    xl:top-11
                     2xl:top-22
                 "
             />

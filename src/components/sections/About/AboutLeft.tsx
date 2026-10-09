@@ -26,11 +26,11 @@ export default function AboutLeft() {
                         block
                         w-[90%]
                         mx-auto
-                        lg:pt-26
+                        lg:pt-66
                         lg:w-[90%]
                         lg:mx-0
-                        xl:pt-30
-                        xl:w-[90%]
+                        xl:pt-50
+                        2xl:pt-0
                         h-auto
                     "
                 />

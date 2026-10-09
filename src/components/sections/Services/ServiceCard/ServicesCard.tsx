@@ -12,14 +12,19 @@ export default function ServicesCard({ items }: ServicesCardProps) {
             className="
                 relative
                 w-full
-                lg:w-[551px]
-                lg:h-[1108px]
+                h-auto
+
+                /* Em telas normais de notebook (1024px até 1440px), o card se adapta */
+                lg:w-[400px]
+                lg:h-[720px]
+
+                /* Em telas médias/grandes (1280px a 1535px) ele cresce um pouco */
+                xl:w-[520px]
+                xl:h-[900px]
                 
-                xl:w-[551px]
-                xl:h-[908px]                
-                
+                /* Mantém o seu design original intacto APENAS em telas acima de 1536px */
                 2xl:w-[651px]
-                2xl:h-[1108px]                
+                2xl:h-[1108px]
             "
         >
             <img
@@ -28,14 +33,10 @@ export default function ServicesCard({ items }: ServicesCardProps) {
                 className="
                     block
                     w-full
-                    h-auto
-
-                    lg:absolute
-                    lg:inset-0
-                    lg:w-full
-                    lg:h-full  
-
-                    xl:h-auto                    
+                    h-full
+                    absolute
+                    inset-0
+                    object-fill /* Garante que o SVG do frame estique junto com o container */
                 "
             />
             <div
@@ -43,7 +44,9 @@ export default function ServicesCard({ items }: ServicesCardProps) {
                     absolute inset-0
                     flex flex-col
                     z-10 
-                    lg:pt-10
+                    pt-6
+                    lg:pt-8
+                    2xl:pt-10
                 "
             >
                 <Heading
@@ -56,7 +59,8 @@ export default function ServicesCard({ items }: ServicesCardProps) {
                         text-primary-light
                         mt-10
                         mr-6
-                        lg:m-0
+                        lg:mt-6
+                        lg:mr-2
                         lg:pr-8
                     "
                 >
@@ -64,18 +68,20 @@ export default function ServicesCard({ items }: ServicesCardProps) {
                 </Heading>
                 <div
                     className="
-                        mt-8
-                        h-[648px]
+                        mt-4
+                        lg:mt-8
+                        xl:mt-16
+
                         overflow-hidden
-                        lg:mt-16
                     "
                 >
                     <img
                         src={items.image}
                         className="
-                        w-full
-                        object-cover
-                    "
+                            w-full
+                            lg:h-full
+                            object-cover
+                        "
                     />
                 </div>
             </div >

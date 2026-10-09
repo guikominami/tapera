@@ -8,18 +8,13 @@ export default function ServicesGrid() {
                 flex
                 flex-col
                 mt-2
-                items-center
-                
+                items-start
                 lg:grid 
-                lg:grid-cols-1
-                lg:gap-6
+                lg:grid-cols-2 
+                lg:gap-4
                 lg:mt-0
-
-                xl:grid 
-                xl:grid-cols-2 
-                xl:gap-6
-                xl:mt-0 
-                
+                xl:gap-5
+                2xl:gap-8
             ">
             {servicesTextData.map((item) => (
                 <ServicesItem

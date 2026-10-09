@@ -10,8 +10,11 @@ export default function Container({
   className = "",
 }: ContainerProps) {
   return (
-    <div className={`mx-auto w-full max-w-[1572px] px-4 sm:px-6 lg:px-2 ${className}`}>
+    <div className={`mx-auto w-full max-w-[1572px] px-6 xl:px-8 2xl:px-2 ${className}`}>
       {children}
     </div>
+    /*     <div className={`mx-auto w-full max-w-[1572px] px-4 sm:px-6 lg:px-2 ${className}`}>
+          {children}
+        </div> */
   );
 }

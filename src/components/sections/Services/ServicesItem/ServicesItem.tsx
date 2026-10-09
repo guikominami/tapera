@@ -14,20 +14,20 @@ export default function ServicesItem({ item }: ServicesItemProps) {
             className="
                 relative
                 w-full
-                max-w-[340px]
+                max-w-[320px]
                 aspect-[340/270]
 
-                lg:w-[320px]
-                lg:h-[310px]
+                lg:w-[270px]
                 lg:max-w-none
-                lg:aspect-auto
+                lg:aspect-[320/220]
+                lg:h-auto
 
-                xl:w-[360px]
-                xl:h-[260px]
+                xl:w-[310px]
+                xl:max-w-[380px]                
+                xl:aspect-[420/310]                
 
                 2xl:w-[420px]
-                2xl:h-[310px]                
-
+                2xl:max-w-[420px]                
             ">
             <img
                 src={frame}
@@ -45,7 +45,10 @@ export default function ServicesItem({ item }: ServicesItemProps) {
                     absolute inset-0
                     flex flex-col
                     justify-center
-                    px-10
+                    px-6
+                    lg:px-9
+                    xl:px-8
+                    2xl:px-10
                     text-primary-light
                     ${align === "right" ? "lg:text-right" : "lg:text-left"}
                 `}
@@ -58,7 +61,7 @@ export default function ServicesItem({ item }: ServicesItemProps) {
                 </Heading>
                 <Text
                     as="p"
-                    variant="body"
+                    variant="minicard"
                     className="mt-2"
                 >
                     {subtitle}

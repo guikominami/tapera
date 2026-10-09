@@ -37,12 +37,21 @@ export default function OrganisationsCard({ organisations }: OrganisationCardPro
                     border-2
                     border-primary-dark
                     bg-orgs-mobile
-                    lg:h-[480px]
+
                     px-8
                     pt-8
                     pb-16
-                    lg:px-20
-                    lg:pt-12
+
+                    lg:px-10
+                    lg:pt-10
+                    lg:h-[350px]
+
+                    xl:px-20
+                    xl:pt-12
+                    xl:h-[440px]
+
+                    2xl:px-20
+                    2xl:pt-12
                 ">
                     <Heading
                         as="h2"
@@ -51,6 +60,8 @@ export default function OrganisationsCard({ organisations }: OrganisationCardPro
                             mb-8
                             text-left
                             lg:text-right
+                            lg:pl-10
+                            xl:pl-0
                         "
                     >
                         {organisations.name}

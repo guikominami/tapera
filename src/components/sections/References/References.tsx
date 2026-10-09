@@ -27,6 +27,9 @@ export default function References() {
                         text-primary-dark 
                         mb-6
                         md:mb-12
+                        lg:mb-4
+                        xl:mb-8
+                        2xl:mb-12
                     "
                 >
                     {referencesSection.title}

@@ -12,8 +12,8 @@ export default function ActionsGrid() {
                 gap-0
                 lg:gap-6
                 lg:grid 
-                lg:grid-cols-[repeat(3,508px)] 
-                xl:grid-cols-[repeat(3,448px)]                 
+                lg:grid-cols-[repeat(3,300px)] 
+                xl:grid-cols-[repeat(3,380px)]                 
                 xl:gap-4
                 2xl:grid-cols-[repeat(3,508px)]                 
             "

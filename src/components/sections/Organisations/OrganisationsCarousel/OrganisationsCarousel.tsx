@@ -14,7 +14,7 @@ export default function OrganisationsCarousel() {
                 snap-mandatory
                 
                 py-16
-                lg:px-12                
+                lg:px-12
 
             ">
                 {organisations.map((organisation) => (
@@ -22,9 +22,11 @@ export default function OrganisationsCarousel() {
                         key={organisation.name}
                         className="
                             shrink-0
-                            w-[85vw]
+                            w-[80vw]
                             sm:w-[500px]
-                            lg:w-[600px]
+                            lg:w-[400px]
+                            xl:w-[500px]
+                            2xl:w-[600px]
                         "
                     >
                         <OrganisationsCard

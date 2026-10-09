@@ -10,7 +10,8 @@ export default function Organisations() {
             className="
                 bg-primary-light
                 py-10
-                lg:py-20
+                lg:py-10
+                xl:py-20
             "
         >
             <Container>
@@ -21,7 +22,8 @@ export default function Organisations() {
                         text-left 
                         text-primary-dark 
                         mb-0
-                        lg:mb-20
+                        lg:mb-0
+                        2xl:mb-20
                     "
                 >
                     {organisationsSection.title}

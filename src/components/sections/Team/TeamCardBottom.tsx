@@ -27,7 +27,12 @@ export default function TeamCardBottom({ member }: TeamCardProps) {
                         <Text
                             as="p"
                             variant="body"
-                            className="mr-20"
+                            className="
+                                mr-20
+                                lg:mr-90
+                                xl:mr-60
+                                2xl:mr-20
+                            "
                         >
                             {member.description}
                         </Text>

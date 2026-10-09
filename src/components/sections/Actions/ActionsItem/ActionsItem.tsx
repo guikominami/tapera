@@ -39,7 +39,7 @@ export default function ActionsItem({ item }: ActionsItemProps) {
                 </Heading>
                 <Text
                     as="p"
-                    variant="body"
+                    variant="minicard"
                     className="mt-2"
                 >
                     {subtitle}

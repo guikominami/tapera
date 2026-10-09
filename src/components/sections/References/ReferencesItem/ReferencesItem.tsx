@@ -10,7 +10,12 @@ export default function ReferencesItem({ item }: ReferencesItemProps) {
     const { title, subtitle, frame, height } = item;
 
     return (
-        <div className={`relative ${height}`}>
+        <div
+            className={`
+                relative
+                ${height}
+            `}
+        >
             <img
                 src={frame}
                 alt=""
@@ -19,6 +24,7 @@ export default function ReferencesItem({ item }: ReferencesItemProps) {
                     inset-0 
                     w-full 
                     h-full
+                    object-fill                     
                 "
             />
             <div
@@ -26,21 +32,23 @@ export default function ReferencesItem({ item }: ReferencesItemProps) {
                     absolute inset-0
                     flex flex-col
                     justify-center
-                    px:10
                     px-20
+                    lg:px-8
+                    xl:px-10
+                    2xl:px-20
                     text-primary-dark
                 `}
             >
                 <Heading
                     as="h3"
                     variant="card"
-                    className="mb-4"
+                    className="mb-4 lg:mb-2 xl:mb-4"
                 >
                     {title}
                 </Heading>
                 <Text
                     as="p"
-                    variant="body"
+                    variant="minicard"
                     className="mt-1"
                 >
                     {subtitle}
