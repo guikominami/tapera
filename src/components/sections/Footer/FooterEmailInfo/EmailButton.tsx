@@ -19,7 +19,8 @@ export default function EmailButton() {
                     flex
                     items-center
                     justify-center
-                    ml-16
+                    ml-10
+                    lg:ml-16
                     text-primary-light
                 "
             >

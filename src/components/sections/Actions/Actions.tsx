@@ -9,7 +9,10 @@ export default function Actions() {
             id="actions"
             className="
                 bg-services
-                pb-20
+                pt-10
+                pb-4
+                lg:pb-20
+                lg:pt-0
             "
         >
             <Container>
@@ -21,7 +24,8 @@ export default function Actions() {
                         w-[449px] 
                         text-left 
                         text-primary-light 
-                        mb-12
+                        mb-4
+                        lg:mb-12
                     "
                 >
                     {actionsSection.title}

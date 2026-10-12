@@ -15,30 +15,35 @@ export const organisations: Organisations[] = [
         id: 1,
         name: "Projeto Viela",
         description: "É comum crianças de regiões periféricas percorrerem longas distâncias para acessar oportunidades de educação e cultura, mas, para um grupo de crianças do Jardim Ibirapuera, é na viela em que moram que fica o Projeto Viela: planejado e construído com carinho, dedicação e responsabilidade.",
-        logo: logoViela
+        logo: logoViela,
+        website: "https://www.instagram.com/projetoviela/"
     },
     {
         id: 2,
         name: "Favela da Paz",
-        description: "Quanto mais conhecemos o Favela da Paz, mais nos surpreendemos com a quantidade de frentes do Instituto. Além de ser uma referência em tecnologias sustentáveis, são realizados trabalhos com música, alimentação, audiovisual, bem estar, artes e um lindo trabalho comunitário",
-        logo: logoIfp
+        description: "Quanto mais conhecemos o Favela da Paz, mais nos surpreendemos com a quantidade de frentes do Instituto. Além de ser uma referência em tecnologias sustentáveis, são realizados trabalhos com música, alimentação, audiovisual, bem estar, artes e um lindo trabalho comunitário.",
+        logo: logoIfp, 
+        website: "https://www.institutofaveladapaz.org/"
     },
     {
         id: 3,
         name: "Associação Bem Comum",
         description: "Na associação, o acolhimento da casa e o aventurar-se pelo mundo são igualmente importantes. As/os participantes têm oportunidades nessas duas frentes, estruturando seus projetos de vida e construindo relações a partir de valores de cidadania e solidariedade.",
-        logo: logoBemComum
+        logo: logoBemComum,
+        website: "https://abemcomum.org/"
     },
     {
         id: 4,
         name: "Biblioteca Comunitária Djeanne Firmino",
         description: "Uma biblioteca que é uma biblioteca, um espaço de brincar, de conversar, de promover encontros preciosos. Um espaço acolhedor, gerido por mulheres, que oferece mediação e clubes de leitura, empréstimo de livros, roda de mulheres, festivais, atividades culturais e de convivência comunitária.",
-        logo: logoBiblioteca
+        logo: logoBiblioteca,
+        website: "https://rnbc.org.br/biblioteca/djeanne-firmino/"
     },
     {
         id: 5,
         name: "Associação Imargem",
         description: "No Grajaú, foi criada a Associação Imargem que propõe um olhar cuidadoso para as paisagens povoadas das periferias. Ações que acontecem na sede da associação, nas ruas, muros e escolas da região, nas águas da Represa Billings e em outros tantos territórios, físicos e simbólicos.",
-        logo: logoImargem
+        logo: logoImargem,
+        website: "https://imargem.art.br/"
     },          
 ]

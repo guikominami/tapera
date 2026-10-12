@@ -26,8 +26,6 @@ export default function ContactInfo({ phrase, text }: { phrase: string; text: st
             >
                 {text}
             </Text>
-
-
         </div>
     )
 }

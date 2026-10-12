@@ -1,6 +1,5 @@
 import { hero } from "@/data/hero";
 import Heading from "@/components/ui/Heading/Heading";
-import { typography } from "@/theme/typography";
 import { cn } from "@/utils/cn";
 import Text from "@/components/ui/Text/Text";
 
@@ -8,13 +7,15 @@ export default function HeroContent() {
     return (
         <div
             className="
-                flex flex-col
-                relative 
-                z-10 
-                gap-8 
-                w-full 
-                max-w-xl 
-                md:max-w-5xl 
+                relative
+                z-20
+                w-full
+                max-w-4xl
+                px-4
+                md:px-0
+                lg:max-w-3xl
+                xl:max-w-4xl
+                2xl:max-w-5xl
                 text-left
                 text-primary-light
             "
@@ -23,13 +24,24 @@ export default function HeroContent() {
                 id="hero-title"
                 as="h1"
                 variant="hero"
-                className="[-webkit-text-stroke:2px_#460B13] [paint-order:stroke_fill]"
+                className="
+                    max-w-[720px]
+                    xl:max-w-[800px]
+                    2xl:max-w-[1000px]
+
+                    text-primary-light
+                    leading-tight
+
+                    [-webkit-text-stroke:2px_#460B13]
+                    [paint-order:stroke_fill]
+                "
             >
                 {hero.title}
             </Heading>
 
             <ul className={cn(
-                "flex flex-col tracking-wide max-w-full"
+                "mt-6 flex flex-col tracking-wide",
+                "max-w-xl"
             )}>
                 <Text as="li" variant="body">Caminhar junto.</Text>
                 <Text as="li" variant="body">Reconhecer e apoiar suas demandas.</Text>

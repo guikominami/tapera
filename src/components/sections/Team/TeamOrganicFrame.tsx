@@ -1,4 +1,3 @@
-import Text from "@/components/ui/Text/Text";
 import frameCardTop from "@/assets/decorations/team/frameCardTop.svg";
 import frameCardBottom from "@/assets/decorations/team/frameCardBottom.svg";
 

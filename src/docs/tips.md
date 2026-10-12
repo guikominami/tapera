@@ -7,6 +7,8 @@ git add .
 commit
 git commit -m "feat: implement Team section"
 
+git push -u origin HEAD
+
 atualizar a main e fazer o merge
 git switch main
 git pull origin main

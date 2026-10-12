@@ -1,4 +1,3 @@
-import heroBackground from "@/assets/images/hero/hero-background.jpg";
 import HeroContent from "./HeroContent";
 import Container from "@/components/ui/Container/Container";
 import birds from "@/assets/decorations/transitions/birds.png"
@@ -9,13 +8,16 @@ export default function Hero() {
             aria-labelledby="Nosso Propósito"
             className="
                 flex flex-col 
-                justify-center 
+                justify-center
+                items-start 
                 relative 
-                min-h-[80vh] 
+                min-h-[70vh]
+                sm:min-h-[75vh]
+                lg:min-h-[80vh]
                 bg-cover 
-                bg-center 
+                bg-center
+                bg-[url('/images/hero/hero-background.jpg')]
             "
-            style={{ backgroundImage: `url(${heroBackground})` }}
         >
             <Container>
                 {/* Camada escura de contraste */}
@@ -29,13 +31,18 @@ export default function Hero() {
                         aria-hidden="true"
                         className="
                             absolute
-                            top-25
-                            ml-20
-                            w-[1500px]
+                            left-1/2
+                            -translate-x-1/2
+                            top-[210px]
+
+                            w-[1000px]
+                            xl:w-[1150px]
+                            min-[1400px]:w-[1500px]
+
+                            min-[1400px]:top-[300px]
                         "
                     />
                 </div>
-
 
                 <HeroContent />
             </Container>

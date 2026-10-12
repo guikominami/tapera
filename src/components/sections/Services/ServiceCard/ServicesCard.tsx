@@ -11,25 +11,41 @@ export default function ServicesCard({ items }: ServicesCardProps) {
         <div
             className="
                 relative
-                w-[651px] 
-                h-[1108px]
+                w-full
+                h-auto
+
+                /* Em telas normais de notebook (1024px até 1440px), o card se adapta */
+                lg:w-[400px]
+                lg:h-[720px]
+
+                /* Em telas médias/grandes (1280px a 1535px) ele cresce um pouco */
+                xl:w-[520px]
+                xl:h-[900px]
+                
+                /* Mantém o seu design original intacto APENAS em telas acima de 1536px */
+                2xl:w-[651px]
+                2xl:h-[1108px]
             "
         >
             <img
                 src={servicesCardFrame}
                 alt=""
                 className="
-                    absolute inset-0 
-                    w-full 
+                    block
+                    w-full
                     h-full
-                    z-0
+                    inset-0
+                    object-fill /* Garante que o SVG do frame estique junto com o container */
                 "
             />
             <div
                 className="
                     absolute inset-0
                     flex flex-col
-                    z-10 pt-10
+                    z-10 
+                    pt-6
+                    lg:pt-8
+                    2xl:pt-10
                 "
             >
                 <Heading
@@ -37,28 +53,34 @@ export default function ServicesCard({ items }: ServicesCardProps) {
                     as="h3"
                     variant="section"
                     className="
-                        items-end 
+                        items-end
                         text-right 
-                        pr-8
                         text-primary-light
+                        mt-0
+                        mr-6
+                        lg:mt-6
+                        lg:mr-2
+                        lg:pr-8
                     "
                 >
                     {items.title}
                 </Heading>
                 <div
                     className="
-                        mt-16
-                        h-[648px]
+                        mt-4
+                        lg:mt-8
+                        xl:mt-16
+
                         overflow-hidden
                     "
                 >
                     <img
                         src={items.image}
                         className="
-                        w-full
-                        h-full
-                        object-cover
-                    "
+                            w-full
+                            lg:h-full
+                            object-cover
+                        "
                     />
                 </div>
             </div >

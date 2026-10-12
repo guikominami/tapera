@@ -14,7 +14,12 @@ export default function ActionsItem({ item }: ActionsItemProps) {
             <img
                 src={frame}
                 alt=""
-                className="absolute inset-0 w-full h-full"
+                className="
+                    absolute 
+                    inset-0 
+                    w-full 
+                    h-full
+                "
             />
 
             <div
@@ -22,7 +27,7 @@ export default function ActionsItem({ item }: ActionsItemProps) {
                     absolute inset-0
                     flex flex-col
                     justify-center
-                    px-10
+                    px-9
                     text-primary-dark
                 "
             >
@@ -34,7 +39,7 @@ export default function ActionsItem({ item }: ActionsItemProps) {
                 </Heading>
                 <Text
                     as="p"
-                    variant="body"
+                    variant="minicard"
                     className="mt-2"
                 >
                     {subtitle}

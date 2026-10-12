@@ -9,7 +9,9 @@ export default function Organisations() {
             id="references"
             className="
                 bg-primary-light
-                py-20
+                py-10
+                lg:py-10
+                xl:py-20
             "
         >
             <Container>
@@ -19,7 +21,9 @@ export default function Organisations() {
                     className="
                         text-left 
                         text-primary-dark 
-                        mb-20
+                        mb-0
+                        lg:mb-0
+                        2xl:mb-20
                     "
                 >
                     {organisationsSection.title}

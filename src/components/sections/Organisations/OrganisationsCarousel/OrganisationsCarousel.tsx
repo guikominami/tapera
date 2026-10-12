@@ -7,20 +7,28 @@ export default function OrganisationsCarousel() {
             <div className="
                 flex
                 gap-10
-                px-12
-                py-16
+                px-2
+               
                 overflow-x-auto
                 snap-x
                 snap-mandatory
+                
+                py-10
+                lg:py-14
+                lg:px-12
+                xl:py-12
+
             ">
                 {organisations.map((organisation) => (
                     <div
                         key={organisation.name}
                         className="
                             shrink-0
-                            w-[85vw]
+                            w-[80vw]
                             sm:w-[500px]
-                            lg:w-[600px]
+                            lg:w-[400px]
+                            xl:w-[500px]
+                            2xl:w-[600px]
                         "
                     >
                         <OrganisationsCard

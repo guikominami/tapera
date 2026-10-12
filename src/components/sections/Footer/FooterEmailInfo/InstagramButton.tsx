@@ -5,7 +5,12 @@ export default function InstagramButton() {
     return (
         <a
             href={footerInfo.instagram}
-            className="w-[281px] h-[281px] shrink-0"
+            className="
+                w-[60px] 
+                md:w-[281px] 
+                md:h-[281px] 
+                shrink-0
+            "
         >
             <img
                 src={instagramButton}

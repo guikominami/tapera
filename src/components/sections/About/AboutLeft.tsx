@@ -5,20 +5,34 @@ import aboutYoga from "@/assets/images/about/about-yoga.png";
 
 export default function AboutLeft() {
     return (
-        <div className="flex flex-col gap-12">
+        <div>
             <Heading
                 id="about-title"
                 as="h2"
                 variant="section"
+                className="
+                    w-[80%]
+                    lg:w-full 
+                "
             >
                 {aboutData.title}
             </Heading>
 
-            <figure className="mt-[20vh] /* matches Figma composition */">
+            <figure className="mt-10 sm:mt-[42vh] mb-10 md:mb-0 /* matches Figma composition */">
                 <img
                     src={aboutYoga}
                     alt="Yoga"
-                    className="block w-full h-auto"
+                    className="
+                        block
+                        w-[90%]
+                        mx-auto
+                        lg:pt-66
+                        lg:w-[90%]
+                        lg:mx-0
+                        xl:pt-50
+                        2xl:pt-0
+                        h-auto
+                    "
                 />
             </figure>
         </div>

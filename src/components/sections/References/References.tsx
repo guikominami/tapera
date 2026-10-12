@@ -3,6 +3,7 @@ import Heading from "@/components/ui/Heading/Heading";
 import Container from "@/components/ui/Container/Container";
 import { referencesSection } from "@/data/references";
 import ReferencesGrid from "./ReferencesGrid";
+import ReferencesGridMobile from "./ReferencesGridMobile";
 
 export default function References() {
     return (
@@ -14,7 +15,8 @@ export default function References() {
                 className="
                     flex
                     flex-col
-                    mt-20
+                    mt-8
+                    md:mt-20
                 ">
                 <Heading
                     as="h1"
@@ -23,12 +25,21 @@ export default function References() {
                         w-[449px] 
                         text-left 
                         text-primary-dark 
-                        mb-12
+                        mb-6
+                        md:mb-12
+                        lg:mb-4
+                        xl:mb-8
+                        2xl:mb-12
                     "
                 >
                     {referencesSection.title}
                 </Heading>
-                <ReferencesGrid />
+                <div className="hidden lg:block">
+                    <ReferencesGrid />
+                </div>
+                <div className="block lg:hidden">
+                    <ReferencesGridMobile />
+                </div>
             </Container>
         </section >
     );
