@@ -1,8 +1,11 @@
 import Text from "@/components/ui/Text/Text";
 
-export default function OrganisationsCardFooter() {
+export default function OrganisationsCardFooter({ website }: { website: string }) {
+    console.log("Website:", website);
     return (
+
         <div
+            key={website}
             className="
                 absolute
                 bottom-[-35px]
@@ -19,8 +22,10 @@ export default function OrganisationsCardFooter() {
                 2xl:left-[300px]                
             "
         >
-            <button
-                type="button"
+            <a
+                href={website}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="
                     relative
                     flex
@@ -28,15 +33,16 @@ export default function OrganisationsCardFooter() {
                     justify-center
                     min-h-[60px]
                     w-[180px]
-
                     lg:w-[220px]
                     lg:min-h-[70px]
                     rounded-[45px_0_45px_0]
                     bg-orgs-footer
-
                     transition-all
                     hover:brightness-110
                     active:scale-95
+                    focus-visible:outline
+                    focus-visible:outline-2
+                    focus-visible:outline-offset-4
                 "
             >
                 <Text
@@ -46,7 +52,7 @@ export default function OrganisationsCardFooter() {
                 >
                     Saiba mais
                 </Text>
-            </button>
+            </a>
         </div>
     )
 }

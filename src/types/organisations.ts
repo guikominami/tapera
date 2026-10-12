@@ -8,4 +8,5 @@ export interface Organisations {
     name: string;
     description: string;
     logo: string;
+    website:string;
 }

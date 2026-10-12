@@ -13,8 +13,10 @@ export default function OrganisationsCarousel() {
                 snap-x
                 snap-mandatory
                 
-                py-16
+                py-10
+                lg:py-14
                 lg:px-12
+                xl:py-12
 
             ">
                 {organisations.map((organisation) => (

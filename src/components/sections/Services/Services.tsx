@@ -17,7 +17,7 @@ export default function Services() {
                     lg:pt-12
                     lg:items-center
                     lg:flex-row
-                    lg:justify-center 
+                    lg:justify-center
                 ">
                 <div className="order-2 lg:order-1">
                     <ServicesGrid />

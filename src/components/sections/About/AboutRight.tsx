@@ -70,7 +70,7 @@ export default function AboutRight() {
             </OrganicFrame>
 
             {/* Mobile */}
-            <div className="lg:hidden px-6 py-10">
+            <div className="lg:hidden px-4 py-10">
                 {aboutData.paragraphs.map((paragraph, index) => (
                     <Text
                         key={index}

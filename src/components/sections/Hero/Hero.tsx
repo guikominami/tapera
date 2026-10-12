@@ -33,7 +33,7 @@ export default function Hero() {
                             absolute
                             left-1/2
                             -translate-x-1/2
-                            top-[230px]
+                            top-[210px]
 
                             w-[1000px]
                             xl:w-[1150px]

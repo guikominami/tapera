@@ -34,7 +34,6 @@ export default function ServicesCard({ items }: ServicesCardProps) {
                     block
                     w-full
                     h-full
-                    absolute
                     inset-0
                     object-fill /* Garante que o SVG do frame estique junto com o container */
                 "
@@ -57,7 +56,7 @@ export default function ServicesCard({ items }: ServicesCardProps) {
                         items-end
                         text-right 
                         text-primary-light
-                        mt-10
+                        mt-0
                         mr-6
                         lg:mt-6
                         lg:mr-2

@@ -24,7 +24,8 @@ export default function Actions() {
                         w-[449px] 
                         text-left 
                         text-primary-light 
-                        mb-12
+                        mb-4
+                        lg:mb-12
                     "
                 >
                     {actionsSection.title}

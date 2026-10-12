@@ -79,7 +79,7 @@ export default function OrganisationsCard({ organisations }: OrganisationCardPro
                         {organisations.description}
                     </Text>
 
-                    <OrganisationsCardFooter />
+                    <OrganisationsCardFooter website={organisations.website} />
                 </div>
 
             </div>

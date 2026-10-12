@@ -6,30 +6,58 @@ export default function Quote({ quotation, name }: { quotation: string; name: st
     return (
         <div
             className="
-                flex
-                justify-end
-                h-[1021px]
-                w-[100%]
-                bg-no-repeat
-                bg-left-bottom
+                relative 
+                h-[300px]
+                lg:h-[500px]
+                xl:h-[800px]
+                2xl:h-[1000px]
+                w-full 
+                overflow-hidden 
+                bg-primary-light
+                p-0
+                md:p-16
             "
-            style={{
-                backgroundImage: `url(${birds})`,
-                backgroundSize: "1550px",
-            }}
         >
-            <div className="w-[800px]">
+            <img
+                src={birds}
+                alt="Bando de andorinhas"
+                className="
+                    absolute 
+                    top-30
+                    lg:top-0
+                    left-0 
+                    z-0 
+                    w-full 
+                    max-w-[1550px]
+                    object-contain 
+                    object-left-bottom
+                "
+            />
+
+            <div
+                className="
+                    relative 
+                    z-10 
+                    flex flex-col 
+                    items-end 
+                    text-right 
+                    text-primary-dark
+                "
+            >
                 <Heading
                     as="h1"
                     variant="section"
-                    className="items-end text-right"
+                    className="
+                        lg:w-[60%]
+                        text-primary-dark
+                    "
                 >
                     {quotation}
                 </Heading>
                 <Text
                     as="p"
-                    variant="highlight"
-                    className="items-end text-right mt-5"
+                    variant="footer"
+                    className="pr-8 pt-4 lg:p-4"
                 >
                     {name}
                 </Text>

@@ -31,13 +31,13 @@ export default function Header() {
                 </div>
 
                 {/* Mobile */}
-                <button
+                {/*                 <button
                     type="button"
                     className="md:hidden text-2xl"
                     aria-label="Abrir menu"
                 >
                     ☰
-                </button>
+                </button> */}
 
             </Container>
         </header>
