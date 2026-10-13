@@ -11,9 +11,12 @@ export default function FooterEmailInfo() {
         <div
             className="
                 flex flex-row
-                h-[281px]
+                lg:h-[151px]
+                xl:h-[196px]
+                2xl:h-[253px]                
+                min-[1900px]:h-[281px]
                 justify-center 
-                items-center
+                items-start
                 overflow-hidden
             "
         >

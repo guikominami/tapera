@@ -57,7 +57,7 @@ export default function Quote({ quotation, name }: { quotation: string; name: st
                 <Text
                     as="p"
                     variant="footer"
-                    className="pr-8 pt-4 lg:p-4"
+                    className="pt-4 lg:p-4"
                 >
                     {name}
                 </Text>
