@@ -7,9 +7,8 @@ export default function FooterEmailInfoMobile() {
     return (
         <div
             className="
-                flex flex-row
-                justify-center 
-                items-center
+                flex w-full flex-row
+                items-stretch
                 overflow-hidden
             "
         >

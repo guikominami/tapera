@@ -7,7 +7,7 @@ import footerImgPattern4 from "@/assets/decorations/footer/pattern4.svg"
 export const footerInfo: FooterInfo = {
     email: "tapera@gmail.com",
     whatsapp: "",
-    instagram: "",
+    instagram: "https://www.instagram.com/institutotapera/",
 }
 
 export const footerBackgroundLeft: FooterBackground[] = [

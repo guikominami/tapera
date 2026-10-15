@@ -5,10 +5,13 @@ export default function InstagramButton() {
     return (
         <a
             href={footerInfo.instagram}
+            target="_blank"
             className="
-                w-[60px] 
-                md:w-[281px] 
-                md:h-[281px] 
+                w-[17.2%]
+                lg:w-[151px]
+                xl:w-[196px]
+                2xl:w-[253px]                
+                min-[1900px]:w-[281px]                
                 shrink-0
             "
         >
