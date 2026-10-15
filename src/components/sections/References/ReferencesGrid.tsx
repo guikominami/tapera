@@ -12,7 +12,7 @@ export default function ReferencesGrid() {
                 grid-cols-2
                 gap-6
 
-                xl:gap-2
+                xl:gap-4
                 xl:items-start
 
                 2xl:gap-6

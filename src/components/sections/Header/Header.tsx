@@ -18,7 +18,7 @@ export default function Header() {
                     <Navigation items={navigation} />
 
                     <a
-                        href="#contato"
+                        href="#contact"
                         className={cn(
                             typography.ui.button,
                             "bg-[#0D6251] text-background px-6 py-2.5 font-bold text-primary-light",
